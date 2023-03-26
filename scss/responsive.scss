@@ -1,6 +1,10 @@
 $breakpoint-tablet: 900px;
 @media only screen and (max-width: $breakpoint-tablet) {
   
+    header {
+        padding: 20px 0 0 0;
+    }
+
     main {
 
         text-align: center;
