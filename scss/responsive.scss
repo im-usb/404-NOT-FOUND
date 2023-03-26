@@ -1,0 +1,36 @@
+$breakpoint-tablet: 900px;
+@media only screen and (max-width: $breakpoint-tablet) {
+  
+    main {
+
+        text-align: center;
+        .content {
+            flex-direction: column;
+        }
+    }
+
+    .image {
+
+        img {
+            width: 76%;
+        }
+    }
+
+    .text {
+
+        text-align: left;
+
+        h2 {
+            font-size: 48px;
+            line-height: 70px;
+            margin: 0 0 30px;
+        }
+    
+        p {
+            width: 100%;
+            font-size: 18px;
+            margin: 0 0 66px;
+        }
+    }
+    
+}
